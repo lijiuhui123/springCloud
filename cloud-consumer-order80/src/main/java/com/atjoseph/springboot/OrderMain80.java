@@ -2,6 +2,7 @@ package com.atjoseph.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * <p> 描述: 编辑订单主启动类 </p>
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author : Joseph
  * @version : v1.0
  */
+@EnableEurekaClient
 @SpringBootApplication
 public class OrderMain80 {
     public static void main(String[] args) {
